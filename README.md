@@ -4,13 +4,12 @@
 ## Setup
 - buka direktori project di terminal anda.
 - ketikan command : cp .env.example .env (copy paste file .env.example)
-- buat database sesuai ke inginan anda (sesuaikan di .env)
-Lalu ketik command dibawah ini : 
+- buat database sesuai ke inginan anda (sesuaikan di .env)Lalu ketik command dibawah ini
 - composer install
 - php artisan optimize:clear 
 - php artisan key:generate (generate app key)
 - php artisan migrate (migrasi database)
-- php artisan db:seed --class=UserClass (mengisi data table users) atau bisa juga php artisan db:seed (semua tabel)
+- php artisan serve
 
 ## Fitur
 - Autentikasi dengan Laravel Auth
